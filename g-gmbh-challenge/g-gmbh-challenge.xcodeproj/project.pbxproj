@@ -18,6 +18,9 @@
 		741B3A4F221359C100263B10 /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B3A4E221359C100263B10 /* BaseInteractor.swift */; };
 		741B3A51221359CF00263B10 /* BaseWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B3A50221359CF00263B10 /* BaseWireframe.swift */; };
 		741B3A53221359DD00263B10 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B3A52221359DD00263B10 /* BaseViewController.swift */; };
+		741B3A5B22135ABC00263B10 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B3A5A22135ABC00263B10 /* Constants.swift */; };
+		741B3A5D22135ACA00263B10 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B3A5C22135ACA00263B10 /* Extentions.swift */; };
+		741B3A5F22135AE100263B10 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B3A5E22135AE100263B10 /* APIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		741B3A4E221359C100263B10 /* BaseInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInteractor.swift; sourceTree = "<group>"; };
 		741B3A50221359CF00263B10 /* BaseWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWireframe.swift; sourceTree = "<group>"; };
 		741B3A52221359DD00263B10 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		741B3A5A22135ABC00263B10 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		741B3A5C22135ACA00263B10 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		741B3A5E22135AE100263B10 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +89,10 @@
 		741B3A472213595100263B10 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				741B3A4A221359A600263B10 /* BaseEntity.swift */,
-				741B3A4C221359B500263B10 /* BasePresenter.swift */,
-				741B3A4E221359C100263B10 /* BaseInteractor.swift */,
 				741B3A50221359CF00263B10 /* BaseWireframe.swift */,
+				741B3A4A221359A600263B10 /* BaseEntity.swift */,
+				741B3A4E221359C100263B10 /* BaseInteractor.swift */,
+				741B3A4C221359B500263B10 /* BasePresenter.swift */,
 				741B3A52221359DD00263B10 /* BaseViewController.swift */,
 			);
 			path = Base;
@@ -95,6 +101,7 @@
 		741B3A482213595F00263B10 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				741B3A5622135A2600263B10 /* Entity */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -104,6 +111,16 @@
 			children = (
 			);
 			path = Module;
+			sourceTree = "<group>";
+		};
+		741B3A5622135A2600263B10 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				741B3A5A22135ABC00263B10 /* Constants.swift */,
+				741B3A5C22135ACA00263B10 /* Extentions.swift */,
+				741B3A5E22135AE100263B10 /* APIClient.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,12 +196,15 @@
 			files = (
 				741B3A352213590900263B10 /* ViewController.swift in Sources */,
 				741B3A4D221359B500263B10 /* BasePresenter.swift in Sources */,
+				741B3A5D22135ACA00263B10 /* Extentions.swift in Sources */,
 				741B3A332213590900263B10 /* AppDelegate.swift in Sources */,
 				741B3A3B2213590900263B10 /* g_gmbh_challenge.xcdatamodeld in Sources */,
+				741B3A5F22135AE100263B10 /* APIClient.swift in Sources */,
 				741B3A51221359CF00263B10 /* BaseWireframe.swift in Sources */,
 				741B3A53221359DD00263B10 /* BaseViewController.swift in Sources */,
 				741B3A4B221359A600263B10 /* BaseEntity.swift in Sources */,
 				741B3A4F221359C100263B10 /* BaseInteractor.swift in Sources */,
+				741B3A5B22135ABC00263B10 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

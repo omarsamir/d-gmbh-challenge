@@ -1,5 +1,5 @@
 //
-//  BaseViewController.swift
+//  Constants.swift
 //  g-gmbh-challenge
 //
 //  Created by Omar Samir on 2/12/19.
@@ -8,6 +8,6 @@
 
 import UIKit
 
-class BaseViewController: UIViewController {
+class Constants: NSObject {
 
 }
