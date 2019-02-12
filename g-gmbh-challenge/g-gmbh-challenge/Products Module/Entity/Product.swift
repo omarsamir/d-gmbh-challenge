@@ -7,7 +7,27 @@
 //
 
 import UIKit
+import ObjectMapper
 
-class Product: BaseEntity {
-
+class Product: BaseEntity,Mappable {
+    
+    var id: Int!
+    var name: String!
+    var productDescription: String!
+    var price: Double!
+    var image: Image!
+    
+    
+    required init?(map: Map) {
+        
+    }
+    
+    func mapping(map: Map) {
+        id                                  <- map["id"]
+        name                                <- map["name"]
+        productDescription                  <- map["productDescription"]
+        price                               <- map["price"]
+        image                               <- map["image"]
+    }
+    
 }

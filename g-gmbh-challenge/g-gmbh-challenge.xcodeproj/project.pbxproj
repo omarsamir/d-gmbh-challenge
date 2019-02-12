@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18579B77BA3B55F09E78FE25 /* Pods_g_gmbh_challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461641A80BD5CACD8A9B92C0 /* Pods_g_gmbh_challenge.framework */; };
 		741B3A332213590900263B10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B3A322213590900263B10 /* AppDelegate.swift */; };
 		741B3A352213590900263B10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B3A342213590900263B10 /* ViewController.swift */; };
 		741B3A382213590900263B10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741B3A362213590900263B10 /* Main.storyboard */; };
@@ -29,9 +30,12 @@
 		741B3A7022135C7200263B10 /* ProductsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 741B3A6E22135C7200263B10 /* ProductsListViewController.xib */; };
 		741B3A7322135C8500263B10 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B3A7122135C8500263B10 /* ProductDetailsViewController.swift */; };
 		741B3A7422135C8500263B10 /* ProductDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 741B3A7222135C8500263B10 /* ProductDetailsViewController.xib */; };
+		741B3A7622135F2D00263B10 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B3A7522135F2D00263B10 /* Image.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		349036DBF62FAE3CA782E4E9 /* Pods-g-gmbh-challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-g-gmbh-challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-g-gmbh-challenge/Pods-g-gmbh-challenge.release.xcconfig"; sourceTree = "<group>"; };
+		461641A80BD5CACD8A9B92C0 /* Pods_g_gmbh_challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_g_gmbh_challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		741B3A2F2213590900263B10 /* g-gmbh-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "g-gmbh-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		741B3A322213590900263B10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		741B3A342213590900263B10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 		741B3A6E22135C7200263B10 /* ProductsListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsListViewController.xib; sourceTree = "<group>"; };
 		741B3A7122135C8500263B10 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
 		741B3A7222135C8500263B10 /* ProductDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDetailsViewController.xib; sourceTree = "<group>"; };
+		741B3A7522135F2D00263B10 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		9BC0A92EB1AA4F28254EDA67 /* Pods-g-gmbh-challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-g-gmbh-challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-g-gmbh-challenge/Pods-g-gmbh-challenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,17 +69,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18579B77BA3B55F09E78FE25 /* Pods_g_gmbh_challenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33E4A21C119B2BAE049C2B78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				461641A80BD5CACD8A9B92C0 /* Pods_g_gmbh_challenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		741B3A262213590900263B10 = {
 			isa = PBXGroup;
 			children = (
 				741B3A312213590900263B10 /* g-gmbh-challenge */,
 				741B3A302213590900263B10 /* Products */,
+				8D7DD833A4C4B20B1FBC380D /* Pods */,
+				33E4A21C119B2BAE049C2B78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -175,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				741B3A6722135BFE00263B10 /* Product.swift */,
+				741B3A7522135F2D00263B10 /* Image.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -187,6 +205,15 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
+		8D7DD833A4C4B20B1FBC380D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BC0A92EB1AA4F28254EDA67 /* Pods-g-gmbh-challenge.debug.xcconfig */,
+				349036DBF62FAE3CA782E4E9 /* Pods-g-gmbh-challenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -194,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 741B3A442213590B00263B10 /* Build configuration list for PBXNativeTarget "g-gmbh-challenge" */;
 			buildPhases = (
+				2EFDA99E7956B6B6081F2E10 /* [CP] Check Pods Manifest.lock */,
 				741B3A2B2213590900263B10 /* Sources */,
 				741B3A2C2213590900263B10 /* Frameworks */,
 				741B3A2D2213590900263B10 /* Resources */,
+				3EA09A593549FB59870DE543 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,12 +284,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2EFDA99E7956B6B6081F2E10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-g-gmbh-challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EA09A593549FB59870DE543 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-g-gmbh-challenge/Pods-g-gmbh-challenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-g-gmbh-challenge/Pods-g-gmbh-challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		741B3A2B2213590900263B10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				741B3A6622135BD800263B10 /* ProductsWireframe.swift in Sources */,
+				741B3A7622135F2D00263B10 /* Image.swift in Sources */,
 				741B3A352213590900263B10 /* ViewController.swift in Sources */,
 				741B3A4D221359B500263B10 /* BasePresenter.swift in Sources */,
 				741B3A5D22135ACA00263B10 /* Extentions.swift in Sources */,
@@ -420,6 +491,7 @@
 		};
 		741B3A452213590B00263B10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BC0A92EB1AA4F28254EDA67 /* Pods-g-gmbh-challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -437,6 +509,7 @@
 		};
 		741B3A462213590B00263B10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 349036DBF62FAE3CA782E4E9 /* Pods-g-gmbh-challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -9,5 +9,8 @@
 import UIKit
 
 class Constants: NSObject {
-
+    
+    //MARK: API Constants
+    static let HEROKU_API_BASE_URL = "https://limitless-forest-98976.herokuapp.com/"
+    static let HTTPREQUEST_TYPE_GET = "GET"
 }
