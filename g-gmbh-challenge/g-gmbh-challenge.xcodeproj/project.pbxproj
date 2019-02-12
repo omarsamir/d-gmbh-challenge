@@ -31,6 +31,8 @@
 		741B3A7322135C8500263B10 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B3A7122135C8500263B10 /* ProductDetailsViewController.swift */; };
 		741B3A7422135C8500263B10 /* ProductDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 741B3A7222135C8500263B10 /* ProductDetailsViewController.xib */; };
 		741B3A7622135F2D00263B10 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B3A7522135F2D00263B10 /* Image.swift */; };
+		741B3A7A221370AC00263B10 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741B3A78221370AC00263B10 /* ProductTableViewCell.swift */; };
+		741B3A7B221370AC00263B10 /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 741B3A79221370AC00263B10 /* ProductTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +63,8 @@
 		741B3A7122135C8500263B10 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
 		741B3A7222135C8500263B10 /* ProductDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDetailsViewController.xib; sourceTree = "<group>"; };
 		741B3A7522135F2D00263B10 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		741B3A78221370AC00263B10 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		741B3A79221370AC00263B10 /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
 		9BC0A92EB1AA4F28254EDA67 /* Pods-g-gmbh-challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-g-gmbh-challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-g-gmbh-challenge/Pods-g-gmbh-challenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -164,6 +168,7 @@
 		741B3A6022135B3A00263B10 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				741B3A772213708500263B10 /* TableView Cells */,
 				741B3A6D22135C7200263B10 /* ProductsListViewController.swift */,
 				741B3A6E22135C7200263B10 /* ProductsListViewController.xib */,
 				741B3A7122135C8500263B10 /* ProductDetailsViewController.swift */,
@@ -203,6 +208,15 @@
 				741B3A6522135BD800263B10 /* ProductsWireframe.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		741B3A772213708500263B10 /* TableView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				741B3A78221370AC00263B10 /* ProductTableViewCell.swift */,
+				741B3A79221370AC00263B10 /* ProductTableViewCell.xib */,
+			);
+			path = "TableView Cells";
 			sourceTree = "<group>";
 		};
 		8D7DD833A4C4B20B1FBC380D /* Pods */ = {
@@ -275,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				741B3A402213590B00263B10 /* LaunchScreen.storyboard in Resources */,
+				741B3A7B221370AC00263B10 /* ProductTableViewCell.xib in Resources */,
 				741B3A3D2213590B00263B10 /* Assets.xcassets in Resources */,
 				741B3A7422135C8500263B10 /* ProductDetailsViewController.xib in Resources */,
 				741B3A7022135C7200263B10 /* ProductsListViewController.xib in Resources */,
@@ -333,6 +348,7 @@
 				741B3A6622135BD800263B10 /* ProductsWireframe.swift in Sources */,
 				741B3A7622135F2D00263B10 /* Image.swift in Sources */,
 				741B3A352213590900263B10 /* ViewController.swift in Sources */,
+				741B3A7A221370AC00263B10 /* ProductTableViewCell.swift in Sources */,
 				741B3A4D221359B500263B10 /* BasePresenter.swift in Sources */,
 				741B3A5D22135ACA00263B10 /* Extentions.swift in Sources */,
 				741B3A6F22135C7200263B10 /* ProductsListViewController.swift in Sources */,
